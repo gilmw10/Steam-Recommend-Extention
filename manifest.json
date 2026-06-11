@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "스팀 게임 추천기",
+  "version": "1.3",
+  "description": "스팀 실시간 인기 TOP 50 중 무작위로 게임을 추천합니다.",
+  "permissions": [],
+  "host_permissions": [
+    "https://*.steampowered.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
